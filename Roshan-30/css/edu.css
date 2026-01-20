@@ -1,0 +1,89 @@
+.education {
+  padding: 60px 30px;
+  background: #fff;
+}
+
+.edu-title {
+  margin-bottom: 40px;
+  letter-spacing: 6px;
+}
+
+.edu-timeline {
+  position: relative;
+}
+
+.edu-timeline::before {
+  content: "";
+  position: absolute;
+  left: 20px;
+  top: 0;
+  width: 4px;
+  height: 100%;
+  background: #e5e7eb;
+}
+
+.edu-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+.edu-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  margin-left: 0;
+}
+
+.edu-card {
+  background: #f3f4f6;
+  padding: 18px 25px;
+  border-radius: 6px;
+  margin-left: 20px;
+  width: 100%;
+}
+
+.edu-card h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.edu-card h3 span {
+  color: #9ca3af;
+  font-size: 14px;
+  margin-left: 6px;
+}
+
+.edu-card p {
+  margin-top: 6px;
+}
+
+.running {
+  font-size: 14px;
+  color: #2563eb;
+}
+
+.blue {
+  background: #3b82f6;
+}
+.red {
+  background: #ef4444;
+}
+.yellow {
+  background: #facc15;
+  color: #000;
+}
+.purple {
+  background: #a855f7;
+}
+
+@media (max-width: 600px) {
+  .edu-card {
+    padding: 15px;
+  }
+}

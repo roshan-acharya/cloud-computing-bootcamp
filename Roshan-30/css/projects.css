@@ -1,0 +1,83 @@
+.projects {
+  background: #ffffff;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.project-card {
+  background: #f3f4f6;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.project-card h3 {
+  margin: 0 0 8px;
+  font-size: 20px;
+}
+
+.project-card p {
+  font-size: 14px;
+  color: #374151;
+  margin-bottom: 12px;
+}
+
+.project-tags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.tag {
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  background: #e5e7eb;
+}
+
+.blue {
+  background: #dbeafe;
+  color: #1d4ed8;
+}
+.red {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+.yellow {
+  background: #fef3c7;
+  color: #92400e;
+}
+.purple {
+  background: #ede9fe;
+  color: #6b21a8;
+}
+
+.project-links {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.project-links a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #5e38f8;
+  border: 1px solid #5e38f8;
+  padding: 6px 14px;
+  border-radius: 20px;
+  transition: all 0.2s ease;
+}
+
+.project-links a:hover {
+  background: #5e38f8;
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
